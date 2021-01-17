@@ -25,7 +25,8 @@
         android:text="Bienvenida Celia"
         android:textColor="#33CC00"
         android:textSize="25dp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        />
 
     <TextView
         android:id="@+id/textView3"
@@ -37,7 +38,10 @@
         android:text="22/04/2021"
         android:textColor="#33CC00"
         android:textSize="25dp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        />
 
     <ImageView
         android:id="@+id/imageView2"

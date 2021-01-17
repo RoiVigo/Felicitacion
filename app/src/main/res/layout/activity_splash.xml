@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ccffff"
     tools:context=".ActivitySplash">
 
     <com.mikhaellopez.circularfillableloaders.CircularFillableLoaders
@@ -17,7 +18,7 @@
         app:cfl_wave_amplitude="0.06"
         app:cfl_wave_color="@color/purple_500"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="170dp"
         />
 
     <TextView
@@ -26,11 +27,19 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/circularFillableLoaders"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="-365dp"
         android:text="@string/txtsplash"
         android:textSize="50sp"
         android:textStyle="bold"
         android:textColor="@color/purple_500"
         />
+
+    <ProgressBar
+        android:id="@+id/progressBar3"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="91dp"
+        android:layout_height="92dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="480dp" />
 
 </RelativeLayout>
